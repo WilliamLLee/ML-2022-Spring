@@ -1,0 +1,15 @@
+Day Outlook Temperature Humidity Wind PlayTennis
+D1 Sunny Hot High False No
+D2 Sunny Hot High True No
+D3 Overcast Hot High False Yes
+D4 Rain Mild High False Yes
+D5 Rain Cool Normal False Yes
+D6 Rain Cool Normal True No
+D7 Overcast Cool Normal True Yes
+D8 Sunny Mild High False No
+D9 Sunny Cool Normal False Yes
+D10 Rain Mild Normal False Yes
+D11 Sunny Mild Normal True Yes
+D12 Overcast Mild High True Yes
+D13 Overcast Hot Normal False Yes
+D14 Rain Mild High True No
