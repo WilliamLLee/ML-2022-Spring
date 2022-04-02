@@ -85,14 +85,17 @@ def plot_samples_with_error(samples,epsilons,title=None,show = False):
     if show:
         plt.show()
 
-def draw_lines(x,y,title=None,show = False):
+def draw_lines(x,y,title=None,show = False,with_marker = False):
     '''
         Draw the lines
         @param: x, the x-axis
                 y, the y-axis
                 title, the title of the plot
     '''
-    plt.plot(x,y,color='red',linewidth=1)
+    if with_marker:
+        plt.plot(x,y,color='red',linewidth=1,marker = 'x',markeredgecolor='blue')
+    else:
+        plt.plot(x,y,color='red',linewidth=1)
     if title is not None:
         plt.title(title)
     if show:
