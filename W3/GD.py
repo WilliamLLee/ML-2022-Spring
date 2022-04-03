@@ -52,7 +52,7 @@ class GD(object):
             
             if epoch%10 == 0:
                 print("[GD] epoch: ",epoch," loss: ",loss)
-                if len(total_loss)>=1 and total_loss[-1] - loss < 0.00001:
+                if len(total_loss)>=1 and total_loss[-1] - loss < 0.000001:
                     print("[GD] converge at epoch: ",epoch)
                     break 
             total_loss.append(loss)

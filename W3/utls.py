@@ -48,7 +48,9 @@ def Generate_Samples(N,X_range,mu,sigma,func):
                 sigma, the standard deviation of the error normal distribution
         @return: samples, the generated samples. 
     '''
-    np.random.seed(43)
+    # Ensure consistent generation of random numbers to facilitate debugging and display results, you can comment out
+    np.random.seed(1)  
+    # Generate samples
     epsilons = np.random.normal(mu,sigma,N)
     X = np.random.uniform(X_range[0],X_range[1],N)
     samples = []
