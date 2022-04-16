@@ -4,7 +4,6 @@
 # this :module :module `LDA_PR.py`  provide a class of LDA_PR
 
 import numpy as np
-from sklearn.utils import shuffle
 from utls import *
 
 class LDA_PR:
