@@ -21,6 +21,12 @@ def one_hot(labels):
         one_hot_labels[i][labels[i]] = 1
     return one_hot_labels
 
+def normalize(x):
+    '''
+    :param x: the input
+    :return: the normalized input
+    '''
+    return (x-np.min(x))/(np.max(x)-np.min(x))
 
 def test(model,test_features,test_labels):
     '''
